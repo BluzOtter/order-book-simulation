@@ -19,5 +19,5 @@ python match_engine/engine.py
 ## Part 2 MLOps on your local machines and AWS
 
 ```
-python monitors/monitor.py
+streamlit run monitors/monitor.py
 ```
