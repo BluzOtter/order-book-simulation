@@ -5,9 +5,19 @@
   - [Part 2 MLOps on your local machines and AWS](#part-2-mlops-on-your-local-machines-and-aws)
 
 ## Part 1 Simulation with Kafka and Streamlit
+### run
+```
+pip install -r requirements.txt
+```
 
-Date: June 15th and June 22th
+```
+# Run producer
+python bots/bots.py
+python match_engine/engine.py
+```
 
 ## Part 2 MLOps on your local machines and AWS
 
-Date: To be determined.
+```
+python monitors/monitor.py
+```
